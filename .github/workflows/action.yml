@@ -1,0 +1,13 @@
+name: Test Action
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f1001603@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
